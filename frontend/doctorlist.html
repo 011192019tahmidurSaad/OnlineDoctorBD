@@ -4,63 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List of the Doctors</title>
+    <title>Doctor's List</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+
 </head>
 
 <body class="bg-white">
     <header>
         <div class="navbar min-h-10">
             <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
-                    </ul>
-                </div>
-                <a class="btn btn-ghost text-5xl">Online Doctor BD</a>
+                
+                    
+                <a href="home.html" class="btn btn-ghost text-5xl px-10 ">Online Doctor BD</a>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Doctor Lists</a></li>
-                    <li>
-                        <details>
-                            <summary>Our Services</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>About Us</a></li>
+            <div class="navbar-end lg:flex px-4">
+                <ul class="menu menu-horizontal  px-10 ">
+                    <li><a href="doctorList.html" class="text-xl">Doctor Lists</a></li>
+                    <li><a href=""class="text-xl">Our Services</a></li>
+                    <li><a href=""class="text-xl">About Us</a></li>
                 </ul>
             </div>
             <div class="navbar-end  ">
-                <a class="btn mr-4 bg-white">LogIn</a>
-                <a class="btn mr-4 bg-white">Sign Up</a>
+                <button class="btn btn-outline px-4 mr-4">Login</button>
+                <button class="btn btn-outline px-4 mr-4">SignUp</button>
             </div>
         </div>
     </header>
     <main>
-        <div>
-            <h1>
-                List of the Doctors
+        <div class="grid place-items-center" >
+            <h1 class="text-3xl py-6">
+                List of All Doctors
             </h1>
         </div>
         <div>
