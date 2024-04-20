@@ -27,7 +27,7 @@
                             </svg>
                             Home</a>
                     </li>
-                    <li><a href="doctorList.html" class="text-xl"onclick="loadAllDoctors()">Doctor Lists</a></li>
+                    <li><a href="doctorList.html" class=" text-xl"onclick="loadAllDoctors()">Doctor Lists</a></li>
                     <li><a href=""class="text-xl">Our Services</a></li>
                 </ul>
             </div>
@@ -43,6 +43,22 @@
         <a href="availbleDoctor.html"><button class="btn glass w-72 text-2xl">Search Doctor</button></a>
       </div>
       <main>
+        <div class="overflow-x-auto">
+            <table   class="table table-zebra px-8">
+              <!-- head -->
+              <thead >
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>City</th>
+                </tr>
+              </thead>
+              <tbody id="selectedDoctorsContainer" >
+               
+              </tbody>
+            </table>
+          </div>
 
 
       </main>
